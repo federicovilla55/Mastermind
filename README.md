@@ -14,3 +14,13 @@ To win, the codebreaker must guess the secret sequence of pegs within a set numb
 After each attempt of the codebreaker, the codemaster should tell:
 - how many pegs he guess correctly (these are the black pegs),
 - how many pegs have the correct color but the wrong position (these are the white pegs).
+
+Build
+-----
+Run `make`, then run `make clean` if you want to delete object files.
+
+Play
+---
+Run `./mastermind.out`.
+Enjoy.
+
