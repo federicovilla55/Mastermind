@@ -43,7 +43,7 @@ void printWhiteBlack(int w, int b){
     printf(reset);
     printf("\t");
     printf(BTILE);
-    for(i=0; i<w; i++){
+    for(i=0; i<b; i++){
         printf("%d ", i+1);
     }
 	printf(reset);
