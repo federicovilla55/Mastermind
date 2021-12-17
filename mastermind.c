@@ -45,7 +45,6 @@ int main(void)
 		printf("\n");
 		printWhiteBlack(wtiles, btiles);
 		printf("\n");
-		printf("%d %d", wtiles, btiles);	
 		printf("\n");	
 
 	}
