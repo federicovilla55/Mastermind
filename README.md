@@ -1,7 +1,7 @@
 # Mastermind
 Implementation of the [Mastermind](https://github.com/Tresza24) game in [ANSI-C](https://en.wikipedia.org/wiki/ANSI_C).
 
-This work was done during 5th and last laboratory of the course of Fundamentals of Informatics at [Polytechnic of Milan](polimi.it).
+This work was done during 5th and last laboratory of the course of Fundamentals of Informatics at [Polytechnic of Milan](https://www.polimi.it/).
 
 Made by [federicovilla55](https://github.com/federicovilla55/), [marcodotsh](https://github.com/marcodotsh/) and [Tresza24](https://github.com/Tresza24).
 
