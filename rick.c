@@ -47,9 +47,8 @@ void playerSettings (Player *player)
 }
 void printName(Player *player)
 {
-    printf("NOME: ");
     printf("%s" , (*player).color);
-    printf("%s\n", (*player).name);
+    printf("%s", (*player).name);
     printf(reset);
 }
 

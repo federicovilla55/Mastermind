@@ -33,7 +33,8 @@ int main(void)
 		wtiles = 0;
 		btiles = 0;
 		do {
-			printf("Inserisci sequenza:\n");
+			printName(&playerinfo);
+			printf(", inserisci sequenza:\n");
 			printf("Nero: n\nRosso: r\nVerde: g\nGiallo: y\nBlu: b\nArancio: m\nCiano: c\nBianco: w\n");
 			scanf(" %s", guessCode);
 		}while(!checkInput(guessCode, currentSettings.seqLen));
@@ -41,9 +42,10 @@ int main(void)
 		checkSequence(secretCode, guessCode, currentSettings.seqLen, &wtiles, &btiles);
 		
 		printSequence(guessCode, currentSettings.seqLen);
-		printf("\n");	
+		printf("\n");
 		printWhiteBlack(wtiles, btiles);
-		printf("\n");	
+		printf("\n");
+		printf("%d %d", wtiles, btiles);	
 		printf("\n");	
 
 	}
